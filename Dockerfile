@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:2.7.17-alpine
 MAINTAINER Robin van der Linde (robin.vanderlinde@gmail.com)
 RUN apk add --no-cache git ffmpeg
 RUN pip install git+https://github.com/mapillary/Piexif
